@@ -1,0 +1,43 @@
+body{
+    
+    background-image: url("https://4.bp.blogspot.com/-kfhbjAYTZtE/W4X6ZRnvUYI/AAAAAAAALzo/i-YiRfzR6RA0fmwcDE5mvMlmVRLHDfp6gCLcBGAs/s1600/Ramo-empresa-Colombiana-nuevo-logo-01.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#titulo{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+#boton{
+    background-color: blueviolet;
+    display: block;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+}
+#horas{
+    display: block;
+    text-align: center;
+}
+#horas label{
+    font-size: 20px;
+}
+#valorSalario{
+    display: block;
+    text-align: center;
+    margin:20px auto;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 20px;
+    width: 20%;
+}
+.campo{
+    display: block;
+    margin: 0 auto;
+}
