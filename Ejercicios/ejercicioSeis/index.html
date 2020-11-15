@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Henry_Serna</title>
+</head>
+<body>
+    <div>
+        <h1>Clase seis</h1>
+        <h2>Ejercicio N°6</h2>
+        <hr>
+        <h2 id="funci">Condicionales</h2>
+        <hr>
+        <p>Crear un algoritmo que le permita al usuario ingresar el tipo de trabajador (FIJO o TEMPORAL) <br>
+            y con base en esto pueda imprimir el nombre y el salario neto, <br>
+            sabiendo que si es FIJO debe leer el nombre, el número de horas trabajadas, 
+            el salario básico hora, el total de deducciones y el total de bonificaciones <br>
+            y si es TEMPORAL solo debe leer el nombre y el número de horas trabajadas; 
+            estos trabajadores tienen un salario básico hora fijo de $6.000 
+            y no tienen deducciones ni bonificaciones.
+        </p>
+    </div>
+    <div id="entrada" >
+    <label for="tip1">Ingrese tipo de trabajador F (fijo) ó T (temporal)</label>
+    <input type="text" name="tip1" id="tip1"> <br>
+    <label for="trabajador">Nombre del trabajador</label>
+    <input type="text" id="trabajador"> <br>
+    <label for="hora1">Horas trabajadas</label>
+    <input type="text" id="hora1"><br>
+    <!-- <label for="hora2">Valor de la hora</label> 
+    //<input type="text" name="hora2" id="hora2">
+    //<label for="deducciones">Deducciones</label>
+    //<input type="text" id="deducciones"> <br>
+    //<label for="bonificacion">Total bonificaciones</label>
+    //<input type="text" id="bonificacion"> -->
+    <button id="boton" onclick="consultar()" >Consultar</button>
+</div>
+    <div id="fijo">
+        <h2 id="reciboh2" >Trabajador Fijo</h2>
+        
+        
+        <label for="trabajador2" class="campo">Nombre del trabajador</label>
+        <input type="text" id="trabajador2" name="trabajador2" class="campo">   
+						<label for="hora2" class="campo">Valor de la hora?</label>
+						<input type="text" name="hora2" id="hora2">   
+						     
+       <label for="bruto1" >Salario bruto</label>
+       <input type="text" name="bruto1" id="bruto1">
+						<button id="boton" onclick="consultar()">Consultar</button> 
+     <!--   //<label for="neto1">Salario neto</label>
+        //<input type="text" name="neto1" id="neto1"> -->
+    </div>
+			<div id="tempo">
+						<h2 id="reciboTempo">Trabajador Temporal</h2>
+						<label for="tip3">Tipo de Trabajador</label>
+						<input type="text" name="tip3" id="tip3">
+			</div>
+        <script src="js/ejercicio6.js"></script>   
+</body>
+</html>

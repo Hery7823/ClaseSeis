@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Henry_Serna</title>
+</head>
+<body>
+    <div>
+        <h1>Clase seis</h1>
+        <h2>Ejercicio N°5</h2>
+        <hr>
+        <h2 id="funci">Condicionales</h2>
+        <hr>
+        <p>Elaborar un algoritmo donde el usuario ingrese la placa de un bus, el número de pasajeros transportados <br> 
+            y la ruta donde prestó el servicio (A o B) <br> 
+            el computador le debe mostrar el dinero que recolectó sabiendo que: <br> 
+            en la ruta A el pasaje es a $1.200 y en la B a $1.000.
+        </p>
+    </div>
+    <div id="entrada" >
+    <label for="placa">Ingrese la placa del bus</label>
+    <input type="text" name="placa" id="placa">
+    <label for="pasajeros">Numeros de pasajeros transportados</label>
+    <input type="text" name="pasajeros" id="pasajeros">
+    <label for="ruta">Ruta A ó B ?</label>
+    <input type="text" name="ruta" id="ruta">
+    <button id="boton" onclick="calcular()" >Calcular</button>
+</div>
+    <div id="recibo">
+        <h2 id="reciboh2" >Comprobante</h2>
+        <label for="numeroPlaca" class="campo">Numero de placa</label>
+        <input type="text" id="numeroPlaca" class="campo">
+        <label for="ingresoTotal" class="campo">Total Consignado</label>
+        <input type="text" id="ingresoTotal" class="campo">
+        
+
+    </div>
+        <script src="js/ejercicio5.js"></script>   
+</body>
+</html>
